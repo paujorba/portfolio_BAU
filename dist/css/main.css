@@ -1,3 +1,89 @@
-body{font-family:Arial, sans-serif;font-size:16px}body h1{font-weight:bold}
+* {
+  box-sizing: border-box; }
 
-/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiZGlzdC9jc3MvbWFpbi5jc3MiLAoJInNvdXJjZXMiOiBbCgkJInNyYy9zY3NzL21haW4uc2NzcyIKCV0sCgkibWFwcGluZ3MiOiAiQUFBQSxJQUFJLEFBQUMsQ0FDSCxXQUFXLENBQUUsaUJBQWtCLENBQy9CLFNBQVMsQ0FBRSxJQUFLLENBS2pCLEFBUEQsSUFBSSxDQUlGLEVBQUUsQUFBQyxDQUNELFdBQVcsQ0FBRSxJQUFLLENBQ25CIiwKCSJuYW1lcyI6IFtdCn0= */
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 62.5%; }
+
+html body {
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  text-align: center;
+  color: #000;
+  margin: 0;
+  padding: 4.8rem;
+  height: 100vh; }
+  @media only screen and (min-width: 768px) {
+    html body {
+      font-size: 1.6rem;
+      line-height: 2.4rem; } }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif; }
+
+p {
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+.index {
+  font-family: 'Playfair Display', serif;
+  list-style: none;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  font-size: 4.8rem;
+  line-height: 6.0rem;
+  text-align: center;
+  font-weight: 700; }
+  @media only screen and (min-width: 768px) {
+    .index {
+      font-size: 5.6rem;
+      line-height: 6.4rem; } }
+
+.container {
+  /*padding: 24px;*/
+  height: 100%;
+  background: linear-gradient(135deg, #3066E1, 60%, #00FF6E);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .container__work {
+    height: 100%;
+    background: linear-gradient(35deg, rgba(48, 102, 225, 0.5), 30%, #00FF6E);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+
+.frombcn {
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  position: absolute;
+  bottom: 4.8rem;
+  right: 1.2rem;
+  font-family: 'Playfair Display', serif; }
+
+.navigation {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  top: 1.2rem;
+  left: 50%;
+  right: -256px;
+  margin: 0;
+  width: 100%; }
+
+.nolist {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */

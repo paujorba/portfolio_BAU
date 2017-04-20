@@ -1,0 +1,16 @@
+.navigation{
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 1.2rem;
+    left: 50%;
+    right: -256px;
+    margin: 0;
+    width: 100%;
+}
+
+.nolist{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}

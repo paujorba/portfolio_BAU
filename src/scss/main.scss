@@ -1,8 +1,7 @@
-body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+@import 'mixins';
 
-  h1 {
-    font-weight: bold;
-  }
-}
+@import 'style';
+@import 'home';
+@import 'containersquare';
+@import 'frombcn';
+@import 'navigation';

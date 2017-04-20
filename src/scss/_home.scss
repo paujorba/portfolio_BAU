@@ -1,0 +1,15 @@
+.index{
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 4.8rem;
+    line-height: 6.0rem;
+    text-align: center;
+    font-weight: 700;
+    @include mediaTablet{
+        font-size: 5.6rem;
+        line-height: 6.4rem;
+    }
+}
