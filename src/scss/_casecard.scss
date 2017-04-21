@@ -1,0 +1,55 @@
+.casecard{
+    width: 100%;
+    background-color: #F7F7F7;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.50);
+    @include mediaTablet{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    &__header{
+        @include mediaMobile{
+            position: absolute;
+            width: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        @include mediaTablet{
+            position: relative;
+        }
+        &__image{
+            height: 8.4rem;
+        }
+    }
+    &__content{
+        padding-top: 5rem;
+        @include mediaTablet{
+            margin-top: 7.2rem;
+            margin-bottom: 7.2rem;
+            padding: 0;
+        }
+    }
+    &__title{
+        font-size: 24px;
+    }
+    &__button{
+        padding-top: 2.4rem;
+        padding-bottom: 12rem;
+        @include mediaTablet{
+            padding-bottom: 0;
+        }
+    }
+    &__image{
+        @include mediaMobile{
+            position: absolute;
+            width: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        @include mediaTablet{
+            position: relative;
+        }
+    }
+}

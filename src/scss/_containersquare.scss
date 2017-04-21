@@ -1,4 +1,4 @@
-.container{
+.containersquare{
     /*padding: 24px;*/
     height: 100%;
     background: linear-gradient(135deg, #3066E1, 60%, #00FF6E);
@@ -8,7 +8,7 @@
     justify-content: center;
     &__work{
         height: 100%;
-        background: linear-gradient(35deg, rgba(48, 102, 225, 0.50), 30%, #00FF6E);
+        background-image: linear-gradient(90deg, rgba(48,102,225,0.50) 0%, #00FF6E 150%);
         display: flex;
         flex-direction: column;
         align-items: center;

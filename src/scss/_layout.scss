@@ -1,0 +1,14 @@
+.layout__col{
+    position: relative;
+    width: 100%;
+    padding: 0 2.4rem;
+    // strong{
+    //     font-family: 'Bitter', serif;
+    //     font-weight: bold;
+    //     font-size: 1.4rem;
+    //     margin: 2rem 0 1rem;
+    // }
+	@include mediaTablet{
+		padding: 0 5.7rem;
+	}
+}
