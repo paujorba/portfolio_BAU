@@ -17,6 +17,9 @@ html body {
   margin: 0;
   padding: 4.8rem;
   height: 100vh; }
+  @media only screen and (max-width: 767px) {
+    html body {
+      padding: 0; } }
   @media only screen and (min-width: 768px) {
     html body {
       font-size: 1.6rem;
@@ -72,14 +75,14 @@ img {
 .containersquare {
   /*padding: 24px;*/
   height: 100%;
-  background: linear-gradient(135deg, #3066E1, 60%, #00FF6E);
+  background: #F7F7F7;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
   .containersquare__work {
     height: 100%;
-    background-image: linear-gradient(90deg, rgba(48, 102, 225, 0.5) 0%, #00FF6E 150%);
+    background: #305f40;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,15 +94,18 @@ img {
   position: absolute;
   bottom: 4.8rem;
   right: 1.2rem;
-  font-family: 'Playfair Display', serif; }
+  font-family: 'Playfair Display', serif;
+  font-weight: bold; }
 
 .navigation {
   font-family: 'Playfair Display', serif;
+  font-weight: bold;
   position: absolute;
-  top: 1.2rem;
-  left: 50%;
-  right: -256px;
+  display: flex;
+  justify-content: center;
+  top: 0;
   margin: 0;
+  left: 0;
   width: 100%; }
 
 .nolist {
@@ -108,6 +114,11 @@ img {
   flex-wrap: wrap;
   margin: 0;
   padding: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 1.2rem; }
 
 .producers__content {
   position: relative;
@@ -132,7 +143,9 @@ img {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: center; } }
+      width: 50%;
+      justify-content: center;
+      margin: 0 auto; } }
   @media only screen and (max-width: 767px) {
     .casecard__header {
       position: absolute;

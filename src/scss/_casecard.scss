@@ -7,7 +7,9 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
+        width: 50%;
         justify-content: center;
+        margin: 0 auto;
     }
     &__header{
         @include mediaMobile{
