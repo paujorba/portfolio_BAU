@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box; }
 
+body__case {
+  padding: 0; }
+
 html {
   height: 100%;
   width: 100%;
@@ -30,7 +33,8 @@ h1, h2, h3, h4, h5 {
   font-weight: 700; }
 
 p {
-  margin: 0; }
+  margin: 0;
+  padding-bottom: 1rem; }
 
 img {
   max-width: 100%; }
@@ -40,6 +44,16 @@ img {
   position: relative;
   margin-left: auto;
   margin-right: auto; }
+  .container__work {
+    width: 100%;
+    margin: 0;
+    height: 100%; }
+  .container__about {
+    width: 100%;
+    padding-top: 2.6rem;
+    margin: 0;
+    height: 100%;
+    background: #98b3f0; }
 
 @media (min-width: 576px) {
   .container {
@@ -107,6 +121,9 @@ img {
   margin: 0;
   left: 0;
   width: 100%; }
+  @media only screen and (max-width: 767px) {
+    .navigation {
+      color: white; } }
 
 .nolist {
   list-style: none;
@@ -143,9 +160,12 @@ a {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      width: 50%;
+      width: 100%;
       justify-content: center;
       margin: 0 auto; } }
+  @media only screen and (min-width: 992px) {
+    .casecard {
+      width: 50%; } }
   @media only screen and (max-width: 767px) {
     .casecard__header {
       position: absolute;
@@ -154,7 +174,8 @@ a {
       transform: translate(-50%, -50%); } }
   @media only screen and (min-width: 768px) {
     .casecard__header {
-      position: relative; } }
+      position: relative;
+      margin: 1rem; } }
   .casecard__header__image {
     height: 8.4rem; }
   .casecard__content {
@@ -194,6 +215,7 @@ a {
   color: #fff;
   text-align: center;
   margin-bottom: 0.2rem;
+  padding-top: 0.7rem;
   outline: none;
   border: 0;
   cursor: pointer; }
@@ -216,5 +238,66 @@ a {
   @media only screen and (min-width: 768px) {
     .layout__col {
       padding: 0 5.7rem; } }
+
+.hero__case {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: #305f40;
+  width: 100%;
+  height: 20rem; }
+.hero__content {
+  position: relative;
+  color: white; }
+.hero__image {
+  position: relative; }
+
+.casecontent {
+  position: relative;
+  padding-top: 31rem;
+  text-align: left; }
+  @media only screen and (min-width: 768px) {
+    .casecontent {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around; } }
+  .casecontent__description {
+    margin-top: 1rem; }
+    @media only screen and (min-width: 768px) {
+      .casecontent__description {
+        width: 30%; } }
+  .casecontent__rol {
+    margin-top: 1rem; }
+    @media only screen and (min-width: 768px) {
+      .casecontent__rol {
+        width: 30%; } }
+  .casecontent__image {
+    position: relative;
+    width: 100%;
+    margin-top: 2.4rem; }
+
+.goback {
+  padding: 2.4rem 0; }
+  .goback a {
+    text-decoration: underline; }
+
+.about__hero {
+  position: relative;
+  width: 100%;
+  padding-top: 2.4rem; }
+@media only screen and (min-width: 992px) {
+  .about__content {
+    padding: 0 10rem; } }
+.about__redes {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  margin: 0;
+  left: 0;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

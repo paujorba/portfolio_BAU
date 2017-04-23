@@ -1,0 +1,22 @@
+.about{
+    &__hero{
+        position: relative;
+        width: 100%;
+        padding-top: 2.4rem;
+    }
+    &__content{
+        @include mediaDesktop{
+            padding: 0 10rem;
+        }
+    }
+    &__redes{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        top: 0;
+        margin: 0;
+        left: 0;
+        width: 100%;
+    }
+}

@@ -7,9 +7,12 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        width: 50%;
+        width: 100%;
         justify-content: center;
         margin: 0 auto;
+    }
+    @include mediaDesktop{
+        width: 50%;
     }
     &__header{
         @include mediaMobile{
@@ -20,6 +23,7 @@
         }
         @include mediaTablet{
             position: relative;
+            margin: 1rem;
         }
         &__image{
             height: 8.4rem;

@@ -1,0 +1,53 @@
+.hero{
+    &__case{
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        background: #305f40;
+        width: 100%;
+        height: 20rem;
+    }
+    &__content{
+        position: relative;
+        color: white;
+        }
+    &__image{
+        position: relative;
+    }
+}
+
+.casecontent{
+    position: relative;
+    padding-top: 31rem;
+    text-align: left;
+    @include mediaTablet{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    &__description{
+        margin-top: 1rem;
+        @include mediaTablet{
+            width: 30%;
+        }
+    }
+    &__rol {
+        margin-top: 1rem;
+        @include mediaTablet{
+            width:30%
+        }
+    }
+    &__image {
+        position: relative;
+        width: 100%;
+        margin-top: 2.4rem;
+    }
+}
+.goback {
+    a {
+        text-decoration: underline;
+    }
+    padding: 2.4rem 0;
+}
