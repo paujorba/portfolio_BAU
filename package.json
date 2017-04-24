@@ -21,10 +21,7 @@
     "validate": "npm ls",
     "deploy": "gh-pages -d dist"
   },
-  "pre-commit": [
-    "lint",
-    "test"
-  ],
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paujorba/portfolio_BAU.git"
